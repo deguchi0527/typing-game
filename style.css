@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.timer {
+  position: absolute;
+  top: 2rem;
+  font-size: 5rem;
+  font-weight: bold;
+  color: rgb(202, 82, 87);
+}
+
+.container {
+  background-color: rgb(93, 183, 235);
+  font-size: 2.4rem;
+  font-weight: 600;
+  padding: 4rem;
+  border-radius: 0.5rem;
+  width: 750px;
+  min-height: 500px;
+  max-width: 90%;
+  box-shadow: 1px 5px 6px rgb(80, 80, 80);
+}
+
+#typeCorrect {
+  color: green;
+}
